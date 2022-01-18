@@ -63,3 +63,11 @@ def assign_and_print_order(table_number, *order_items):
   # Checkpoint 4
   for order_item in order_items:
     print(order_item)
+
+
+# Checkpoint 5
+assign_table(2, 'Arwa', True)
+
+# Checkpoint 6
+assign_and_print_order(2, 'Steak', 'Seabass', 'Wine Bottle')
+print(tables)
